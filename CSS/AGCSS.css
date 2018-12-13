@@ -1,0 +1,153 @@
+#topHeader {
+    background-color:   #9bc2cf;
+    margin-bottom:      0px;
+    height:             100%;
+    padding:            10px;
+    text-align:         center;
+}
+
+#topHeader img {
+    max-width:          100%;
+    border-style:       solid;
+    border-color:       white;
+}
+
+* {
+    margin:             0;
+    padding:            0;
+}
+
+#oceanbackground {
+    background-image:   url(../AGImages/beachhampton.jpg);
+    background-size:    100%;
+    background-repeat:  no-repeat;
+}
+
+nav {
+    width:              100%;
+    height:             65px;
+    background-color:   white;
+}
+
+nav p {
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+    color:              #222;
+    font-size:          24px;
+    line-height:        55px;
+    float:              left;
+    padding:            4px 30px;
+}
+
+/* floating on right side of website name */
+nav ul {
+    float:              left;
+}
+
+/* all navs float next to each other*/
+nav ul li {
+    float:              left;
+    list-style:         none;
+    position:           relative; /*activates position absolute*/
+}
+
+nav ul li a:hover {
+    background-color:   #f3f3f3;
+}
+
+/* text inside navigation*/
+nav ul li a {
+    display:            block;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+    color:              black;
+    font-size:          14px;
+    padding:            22px 14px;
+    text-decoration:    none; /*gets rid of underline*/
+}
+
+nav ul li ul {
+    display:            none;
+    position:           absolute;
+    background-color:   #fff;
+    padding:            1px;
+    border-radius:      0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display:            block;
+}
+
+nav ul li ul li{
+    width:              180px;
+    border-radius:      4px;
+}
+
+nav ul li ul li a{
+    padding:            8px 14px;
+
+}
+
+nav ul li ul li a:hover{
+    background-color:   #f3f3f3;
+}
+
+.layout {  
+    font-size:          105%;
+    padding:            20px;
+    margin:             10px 10px 0px 10px;
+    background-color:   #fff;
+    font-family:        helvetica, swiss, arial, sans-serif;
+    border-style:       solid;
+    border-color:       #9bc2cf;
+}
+
+.coverphoto {
+    background-size:   60%;
+    background-repeat:  no-repeat;
+    text-align:         center;
+    text-decoration:    none;
+    color:              white;
+    font-size:          15px;
+    font-family:        helvetica, swiss, arial, sans-serif;
+}
+
+#sidebar {
+    text-align:         center;
+}
+
+#sidebar p {
+    text-align:         left;
+}
+
+
+h1.layout {
+    font-size:          140%;
+    border-style:       solid;
+    border-color:       #9bc2cf;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+}
+
+img.layout {
+    padding:            0px;
+    margin:             10px;
+}
+
+#main ul {
+    list-style-type:    square;
+    padding:            0px 20px;
+}
+
+footer {
+    background-color:   #9bc2cf;
+    color:              #ffffff;
+    text-align:         center;
+    padding:            15px;
+    margin:             10px;
+    font-size:          90%;
+    font-family:        hiragino sans, helvetica, swiss, arial, sans-serif;
+}
+
+
+
+
+
+
