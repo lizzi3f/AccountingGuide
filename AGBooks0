@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang= en-us >
+  <head>
+    <meta charset="utf-8">
+    <title>Accounting Guide</title>
+    <link rel="stylesheet" type="text/css" href="CSS/AGCSS.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Media.css">
+  </head> 
+  <body id = "oceanbackground">
+  	<header id = "topHeader">
+  		<img id="headerLogo" src="AGImagesAGLogo.png" alt="Accounting Guide Logo">
+  	</header>
+  	<nav>
+  		<p>JF</p>
+  		<ul>
+  			<li><a href= "index.html">Home</a></li>
+  			<li><a href= "AGAbout.html">About</a></li>
+  			<li><a href= "AGBooks0.html">Books</a>
+  				<ul>
+  					<li><a href= "AGBooks1.html">Wiley Revenue Recognition</a></li>
+  					<li><a href= "AGBooks2.html">GAAP 2019</a></li>
+  					<li><a href= "AGBooks3.html">GAAS 2019</a></li>
+  				</ul>
+  			</li>
+        <li><a href= "AGContact.html">Contact</a></li>
+  		</ul>
+  	</nav>
+  	<h1>Home</h1>
+    <div class = "tableContainer">
+      <div class = "tableRow">
+        <section id = "sidebar" class = "tableCell">
+          <p>Hello</p>
+        </section>
+        <section id = "main" class = "tableCell">
+          <p>We offer 3 books useful for not only for working accountants and auditors, but also for accounting students and those studying for the CPA exam:</p>
+
+          <p>Wiley GAAP 2019: Interpretation and Application of Generally Accepted Accounting (This title includes a valuable online financial statement disclosure checklist. The title is also available with a CD-ROM version or as a Kindle ebook.)</p>
+
+          <p>Wiley GAAS 2019: Covering all SASs, SSAEs, SSARSs and interpretations.</p>
+
+          <p>Revenue Recognition plus Website: Understanding the New Standard (This title includes access to a dedicated website with online implementation tools and technical updates. The title is also available as a Kindle ebook.)</p>
+        </section>
+      </div>
+    </div>
+    <footer>
+      &copy; 2018, Accounting Guide<br>
+      All trademarks and registered trademarks appearing on 
+      this site are the property of their respective owners.
+    </footer>
+  </body>	
+
+</html>
