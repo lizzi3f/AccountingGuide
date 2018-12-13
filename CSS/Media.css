@@ -1,0 +1,26 @@
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (min-width: 481px) {
+    
+    .tableContainer {
+        display: table;
+        border-spacing: 10px;
+    }
+
+    .tableRow {
+        display: table-row;
+    }
+
+    .tableCell {
+        vertical-align: top;
+        display: table-cell;
+    }
+
+    #sidebar {
+        width: 30%;
+
+
+}    
+
